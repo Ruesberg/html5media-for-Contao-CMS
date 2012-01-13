@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="html5media" date="20120107">
+    <author user="hschottm" name="Helmut Schottmüller" website="http://www.aurealis.de" />
+    <copyright>&amp;copy; Helmut Schottmüller</copyright>
+    <license>LGPL, GPL</license>
+    <classification type="free" category="plugin" />
+    <release version="10000029" build="6" date="20110814" />
+    <contao minversion="20100009" maxversion="20100049" />
+    <language code="en">
+        <translator user="hschottm" name="Helmut Schottmüller" website="http://www.aurealis.de" />
+        <searchtags>html5,flash,media,movie,audio</searchtags>
+        <title>HTML5 media elements with Flash fallback</title>
+        <teaser>This content element allows to display movies and audio using HTML 5 but provides a Flash fallback for non HTML 5 browsers</teaser>
+        <description>&lt;p&gt;This content element allows to display movies and audio using HTML 5 but provides a Flash fallback for non HTML 5 browsers.&lt;/p&gt;
+&lt;p&gt;The movies can be either H.264 or OGG theora, the audio files can be mp3 or OGG Vorbis. If a browser is not able to deal with HTML 5 movies or audio, a FlowPlayer component is used to present the media.&lt;/p&gt;</description>
+        <releasenotes>&lt;h3&gt;1.0.2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Contao 2.10 compatibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.0.1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update of html5media component (fixes a bug in Safari 5 with the audio tag)&lt;/li&gt;
+&lt;li&gt;Fixed VIDEO and AUDIO tags towards HTML5/XML compatibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.0.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial release&lt;/li&gt;
+&lt;/ul&gt;</releasenotes>
+    </language>
+    <language code="de">
+        <translator user="hschottm" name="Helmut Schottmüller" website="http://www.aurealis.de" />
+        <searchtags>html,flash,medien,filme,audio</searchtags>
+        <title>HTML5 Medien mit Flash Fallback</title>
+        <teaser>Dieses Inhaltselement zeigt Filme und Tondateien mit HTML 5 an oder mit Flash, falls der Browser nicht HTML 5 fähig ist.</teaser>
+        <description>&lt;p&gt; Dieses Inhaltselement zeigt Filme und Tondateien mit HTML 5 an oder mit Flash, falls der Browser nicht HTML 5 fähig ist.&lt;/p&gt;
+&lt;p&gt;Als Filme können entweder H.264 oder OGG Theora-Dateien verwendet werden. Als Tondateien können mp3 oder OGG Vorbis-Dateien verwendet werden.&lt;/p&gt;
+&lt;p&gt;Wenn der Browser die Mediendateien nicht mit HTML 5 abspielen kann, wird stattdessen der FlowPlayer verwendet.&lt;/p&gt;</description>
+        <releasenotes>&lt;h3&gt;1.0.2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kompatibilität zu Contao 2.10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.0.1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktualisierung der html5media-Komponente (behebt einen Fehler in Safari 5)&lt;/li&gt;
+&lt;li&gt;Anpassung der VIDEO und AUDIO Tags auf HTML5/XML-Konformität&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.0.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Initiale Version&lt;/li&gt;
+&lt;/ul&gt;</releasenotes>
+    </language>
+    <language code="it">
+        <translator user="chalda" name="Giulio Bettega" />
+        <searchtags>html5,flash,media,movie,audio</searchtags>
+        <title>Elementi media HTML5 con supporto Flash</title>
+        <teaser>Questo contenuto permette la visualizzazione di audio e video tramite HTML 5, con supporto Flash per i browser che non supportan</teaser>
+        <description>&lt;p&gt;Questo contenuto permette la visualizzazione di audio e video tramite HTML 5, con supporto Flash per i browser che non supportano l&#039;HTML5.&lt;/p&gt; &lt;p&gt;I filmati posso ossere sia H.264 che OGG theora, quelli audio possono essere mp3 o OGG Vorbis. 
+Se un browser non è abilitato ai tag HTML 5 viene utilizzato il componente FlowPlayer .&lt;/p&gt;</description>
+    </language>
+</extension>
