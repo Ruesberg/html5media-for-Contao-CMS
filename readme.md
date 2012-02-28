@@ -3,7 +3,7 @@
 ## Improvements:
 
 * introduced WebM support for `<audio>` and `<video>` elements
-* added `preload="none"` attribute to prevent auto-buffering
+* added `preload="none"` attribute to avoid auto-buffering
 * updated English, Italian and German translations
 
 #### credits go to:
