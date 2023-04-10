@@ -1,6 +1,6 @@
 # HTML5Media for Contao CMS
 
-##_Not maintained anymore, project moved here: https://github.com/hschottm/html5media_
+## _Not maintained anymore, project moved here: https://github.com/hschottm/html5media_
 
 ### Improvements:
 
